@@ -1,1 +1,4 @@
 # Squash-Tournament-Generation
+A snippet of some logic that I made for school project in the second semester of the year 2021/2022. The project was a full stack application made in Angular using a Neo4j Database and Typescript. The goal was to generate a squash tournament from on a user inputting names and divisions. The snippit in src/apps/backend/src/ includes two parts. The tournament service which I built along with a classmate where each function generates a part of the tournament. The comments in the service are quite extensive and give more in-depth information. The second part is a set of tests that test the afforementioned service.
+
+To see the service in action, first clone the repository, install the packages using 'npm install', after which you can run the tests using 'npm test' which of course runs the logic as well.
